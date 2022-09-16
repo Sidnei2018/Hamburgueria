@@ -1,0 +1,201 @@
+@media screen and (min-width: 480px) and (max-width: 800px) {
+ 
+    body {
+        width: 100%;
+    }
+}
+
+@keyframes movimento{
+    
+    50% {color: red;}
+    30% {color: black;}
+    30% {color: red;}
+    30% {color: black;}
+    30% {color: red;}
+    50% {color: black;}
+}
+
+@import url('https://fonts.googleapis.com/css2? família=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*Logo do site*/
+img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border-radius: 20%;
+    border: 2px;
+    border-style: solid;
+    border-color: white;
+}
+/*Menu de navegação*/
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(60, 60, 60);
+}
+
+nav ul li {
+    display: inline;
+    padding: 10px 15px;
+    font-size: 18px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+/*Efeito menú*/
+nav a:hover {
+    color: red;
+    transition: .4s;
+}
+
+/*Imagem de fundo da home*/
+.slogan {
+    display: flex;
+    width: auto;
+    height: 820px;
+    background-image: url(/Images/fastfood.jpg);
+    background-size: cover;
+}
+
+.slogan {
+    align-items: center;
+    padding-left: 50px;
+    color: white;
+    font-size: 30px;
+}
+/*Texto com efeito infinito*/
+.destaque-title {
+    text-align: center;
+    padding: 50px;
+    font-size: 38px;
+    color: red;
+    text-decoration: overline;
+    text-transform: uppercase;
+    text-shadow: 2px 4px grey;
+    animation-name: movimento;
+    animation-duration: .4s;
+    animation-iteration-count: infinite;
+}
+
+.lanches{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+.cervejas{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+/*Descrição dos itens*/
+.description {
+    text-align: center;
+    padding-top: 20px;
+}
+/*Preço dos itens*/
+.price {
+    text-align: center;
+}
+/*Sobre a empresa*/
+.sobre {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.8em;
+    padding: 275px;
+    background-color: rgba(60, 60, 60);
+}
+/*Formulário*/
+.contato {
+    margin: auto;
+    width: 30%;
+    padding: 80px;
+}
+
+label {
+    font-weight: bold;
+    margin: 2px;
+}
+
+input {
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    border: 2px #e4e4e4 solid;
+    background-color: #f4f4f4;
+}
+
+input:hover {
+    border-color: red;
+    transition: .4s;
+}
+/*Botão submit*/
+.botao input{
+    width: 120px;
+    border-radius: 10px;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 10px 10px;
+    color: white;
+    background-color: black;
+}
+/*Efeito do botão*/
+.botao input:hover {
+    cursor: pointer;
+    background-color: red;
+    transition: .4s;
+}
+/*Rodapé e texto*/
+footer {
+    display: flex;
+    height: 90px;
+    background-color: rgba(60, 60, 60);
+}
+
+footer p {
+    display: flex;
+    margin-left: 60%;
+    align-items: center;
+}
+
+.link a {
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+}
+
+.obrigado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 200px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.obrigado img {
+    border-style: solid 2px;
+    color: black;
+    border-radius: 20px;
+    transition: .4s;
+}
+
+.obrigado a {
+    text-decoration: none;
+}
