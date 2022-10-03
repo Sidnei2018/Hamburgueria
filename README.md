@@ -2,8 +2,8 @@
 
 Site fictício de uma Hamburgueria 🌏
 
-1- Possui menú superior com logo;<br>
-2- Possui menú de produtos com lanches e cervejas;<br>
+1- Possui menu superior com logo;<br>
+2- Possui menu de produtos com lanches e cervejas;<br>
 3- Sessão Sobre;<br>
 4- Formulário para contato;<br>
 5- Rodapé;<br>
