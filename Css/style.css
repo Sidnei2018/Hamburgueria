@@ -5,14 +5,31 @@
     }
 } */
 
-@keyframes movimento{
-    
-    50% {color: red;}
-    30% {color: black;}
-    30% {color: red;}
-    30% {color: black;}
-    30% {color: red;}
-    50% {color: black;}
+@keyframes movimento {
+
+    50% {
+        color: red;
+    }
+
+    30% {
+        color: black;
+    }
+
+    30% {
+        color: red;
+    }
+
+    30% {
+        color: black;
+    }
+
+    30% {
+        color: red;
+    }
+
+    50% {
+        color: black;
+    }
 }
 
 @import url('https://fonts.googleapis.com/css2? família=Open+Sans&display=swap');
@@ -23,7 +40,7 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-body{
+body {
     height: 100%;
     position: absolute;
 }
@@ -38,6 +55,7 @@ img {
     border-style: solid;
     border-color: white;
 }
+
 /*Menu de navegação*/
 nav {
     display: flex;
@@ -78,6 +96,7 @@ nav a:hover {
     color: white;
     font-size: 30px;
 }
+
 /*Texto com efeito infinito*/
 .destaque-title {
     text-align: center;
@@ -92,13 +111,13 @@ nav a:hover {
     animation-iteration-count: infinite;
 }
 
-.lanches{
+.lanches {
     display: flex;
     justify-content: space-evenly;
     margin-top: 40px;
 }
 
-.cervejas{
+.cervejas {
     display: flex;
     justify-content: space-evenly;
     margin-top: 20px;
@@ -110,10 +129,12 @@ nav a:hover {
     text-align: center;
     padding-top: 20px;
 }
+
 /*Preço dos itens*/
 .price {
     text-align: center;
 }
+
 /*Sobre a empresa*/
 .sobre {
     color: white;
@@ -123,6 +144,11 @@ nav a:hover {
     padding: 275px;
     background-color: rgba(60, 60, 60);
 }
+
+span {
+    color: #f9004d;
+}
+
 /*Formulário*/
 .contato {
     margin: auto;
@@ -160,12 +186,14 @@ input:hover {
     color: white;
     background-color: black;
 }
+
 /*Efeito do botão*/
 .botao input:hover {
     cursor: pointer;
     background-color: red;
     transition: .4s;
 }
+
 /*Rodapé e texto*/
 footer {
     display: flex;
