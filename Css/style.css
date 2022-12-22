@@ -149,8 +149,9 @@ input:hover {
     border-color: red;
     transition: .4s;
 }
+
 /*Botão submit*/
-.botao input{
+.botao input {
     width: 120px;
     border-radius: 10px;
     font-size: 16px;

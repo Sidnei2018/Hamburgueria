@@ -183,20 +183,24 @@
             Entre em contato conosco e tire todas as suas dúvidas!
         </p><br>
 
-        <form form action="mailto:nome@email.com.br" method="POST" enctype="text/plain">
+        <form form action="mailto:sidfanfire37@gmail.com" method="POST" enctype="text/plain">
             <label for="nome">Nome</label><br>
-            <input type="text" id="Nome" maxlength="30" required="required"><br>
+            <input type="text" name="nome" id="name" maxlength="30" required="required" minlength="5">
+            <br>
 
             <label for="email">Email</label><br>
-            <input type="text" id="email" maxlength="30" required="required"><br>
+            <input type="email" name="email" id="mail" maxlength="30" required="required">
+            <br>
 
             <label for="mensagem">Mensagem</label><br>
-            <input type="text" id="mensagem" maxlength="100">
+            <input type="text" name="mensagem" id="mensage" maxlength="100" required="required">
             <br>
+
             <div class="botao">
+                <label for="submit"></label><br>
                 <input type="submit" name="submit" value="Enviar">
             </div>
-
+            
         </form>
 
     </div>
